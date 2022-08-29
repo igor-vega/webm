@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@200;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/1014333.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>  
+                <li><a href="central.html">CENTRAL</a></li>  
+                <li><a href="blog.html">BLOG</a></li>  
+                <li><a href="contato.html">CONTATO</a></li>    
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Blog</h1>
+
+</section>
+<!--Blog Page Content-->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/Trombone Shorty Stays True to New Orleans.jpg">
+            <h2>A nova onda do Jazz</h2>
+            <p>Com o crescimento do Jazz no cenário musical, estamos cada vez mais próximos de uma mudança completa no mundo da música! Novos grupos como o Caravan Palace. tem comprovado que músicas antes tidas como antiquadas pelas últimas décadas, podem se tornar, sem perder sua estética tradicional, não apenas modernas e condizentes com públicos mais jovens, mas também um sucesso rentável, que se traduz em shows, turnês globas, traduções em 7 línguas e diversas bandas do memo estilo nascendo, mesmo que dentro do cenário mais alternativo.</p>
+        <div class="comment-box">
+
+            <h3>Deixe um comentário</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter name">
+            <input type="email" placeholder="Enter E-mail">
+            <textarea rows="5" placeholder="Seu Comentário">
+            </textarea>
+            <button type="Enviar" class="hero-btn  red-btn">POST COMMENT</button>
+        </form>
+        </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Categorias de Posts</h3>
+            <div>
+                <span>Listas</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Comentários</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Crítica Especializada</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Artistas em Alta</span>
+                <span>41</span>
+            </div>
+            <div>
+                <span>Dicas de Música</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Erratas</span>
+                <span>8</span>
+            </div>
+            <div>
+                <span>Notícias</span>
+                <span>55</span>
+            </div>
+            <div>
+                <span>Posts Parceiros</span>
+                <span>17</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<section class="footer">
+    <br>
+    <br>
+    <h4>Sobre</h4>
+    <p>Somos um time dedicado a espalhar nossa paixão musical com todos, provendo a melhor e mais completa experiência possível</p>
+    <!--br if i need a text break-->
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+    </div>
+    <p>Feito com <i class="fa fa-heart-o"></i> pelo time WebM</p>
+</section>
+<!--JavaScript Toggle Menu-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

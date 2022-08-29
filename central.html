@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@200;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/1014333.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>  
+                <li><a href="central.html">CENTRAL</a></li>  
+                <li><a href="blog.html">BLOG</a></li>  
+                <li><a href="contato.html">CONTATO</a></li>    
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>CENTRAL</h1>
+
+</section>
+<!--Central-->
+<section class="central">
+    <h1>Tudo que fazemos</h1>
+    <p>De música nós entendemos.</p>
+
+    <div class="row">
+        <div class="central-col">
+            <h3>Notícias</h3>
+            <p>Veja o que tem acontecido no mundo da música.    
+            </p>
+        </div>
+        <div class="central-col">
+            <h3>Playlists</h3>
+            <p>Escute as playlists montadas pelo nosso time.    
+            </p>
+        </div>
+        <div class="central-col">
+            <h3>Artistas</h3>
+            <p>Saiba mais sobre os artistas clássicos, os que estão em alta no momento e as próximas revelações do mundo da música.    
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!--Facilities-->
+<section class="facilities">
+    <h1>Playlists Em Destaque</h1>
+    <p>Nossas Playlists mais vistas</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/DESIGNCOLLECTOR on Twitter.jpg">
+            <h3>Grunge</h3>
+            <p>Sua biblioteca Hipster!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/Aesthetic person.jpg">
+            <h3>Vinil Dourado</h3>
+            <p>As músicas mais marcantes da história.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/72f1a706-5b92-4209-b936-9f8ea3701fcb.jpg">
+            <h3>Em Alta</h3>
+            <p>As mais tocadas no último mês.</p>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <br>
+    <br>
+    <h4>Sobre</h4>
+    <p>Somos um time dedicado a espalhar nossa paixão musical com todos, provendo a melhor e mais completa experiência possível</p>
+    <!--br if i need a text break-->
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+    </div>
+    <p>Feito com <i class="fa fa-heart-o"></i> pelo time WebM</p>
+</section>
+<!--JavaScript Toggle Menu-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
